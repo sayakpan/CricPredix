@@ -58,7 +58,7 @@ cities = [
 pipe = pickle.load(open("pipe.pkl", "rb"))
 
 st.markdown(
-    "<h1 style='text-align: center;margin-bottom:2rem'>Cricket Score Predictor - T20</h1>",
+    "<h1 style='text-align: center;'>CricPredix</h1><h4 style='text-align: center;margin-bottom:1rem;'>T20 Cricket Score Predictor</h4>",
     unsafe_allow_html=True,
 )
 
@@ -96,6 +96,7 @@ last_five = st.number_input("Runs scored in last 5 overs", step=1)
 if last_five > current_score:
     st.error("Last 5 over score cannot be greater than current score !")
 
+
 if st.button("Predict Score"):
     balls_left = 120 - (overs * 6)
     wickets_left = 10 - wickets
@@ -117,4 +118,10 @@ if st.button("Predict Score"):
     print(tabulate(input_df))
     result = pipe.predict(input_df)
     print(result)
-    st.header("Predicted Score : " + str(int(result[0])))
+
+    if current_score == 0:
+        st.error("Please enter valid data")
+    else:
+        st.header("Predicted Score : " + str(int(result[0])))
+
+st.text("Built by Sayak")
