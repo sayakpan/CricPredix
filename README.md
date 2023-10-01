@@ -1,6 +1,6 @@
 # CricPredix - T20 Cricket Score Predictor
 
-### Overview
+## Overview
 This project aims to predict T20 cricket scores using machine learning techniques. It utilizes historical match data, player statistics, and other relevant features to make predictions about the final score of a T20 cricket match.
 
 ## Installation
@@ -11,6 +11,11 @@ This project aims to predict T20 cricket scores using machine learning technique
 `cd Cricket-Score-Predictor`
 - Run the Streamlit server <br/>
 `streamlit run app.py`
+
+
+## Try the app
+
+[https://cricpredix-sayak.streamlit.app/](https://cricpredix-sayak.streamlit.app/)
 
 ## Results
 
