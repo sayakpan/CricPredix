@@ -58,7 +58,7 @@ cities = [
 pipe = pickle.load(open("pipe.pkl", "rb"))
 
 st.markdown(
-    "<h1 style='text-align: center;margin-bottom:2rem'>Cricket Score Predictor</h1>",
+    "<h1 style='text-align: center;margin-bottom:2rem'>Cricket Score Predictor - T20</h1>",
     unsafe_allow_html=True,
 )
 
