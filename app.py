@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-from tabulate import tabulate
 
 teams = [
     "Australia",
@@ -115,7 +114,6 @@ if st.button("Predict Score"):
         }
     )
 
-    print(tabulate(input_df))
     result = pipe.predict(input_df)
     print(result)
 
