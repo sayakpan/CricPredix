@@ -5,16 +5,16 @@ This project aims to predict T20 cricket scores using machine learning technique
 
 ## Installation
 
-- Clone the repository:
-`git clone [https://github.com/yourusername/T20-Cricket-Score-Prediction.git](https://github.com/sayakpan/Cricket-Score-Predictor.git)`
-- Navigate to the project directory:
+- Clone the repository <br/>
+`git clone https://github.com/yourusername/T20-Cricket-Score-Prediction.git`
+- Navigate to the project directory <br/>
 `cd Cricket-Score-Predictor`
-- Run the Streamlit server
+- Run the Streamlit server <br/>
 `streamlit run app.py`
 
 ## Results
 
-**R2 Score :  0.9896341678439596**
+**R2 Score :  0.9896341678439596** <br/>
 **Mean Absolute Error :  1.5833891026931888**
 
 ## Contributing
