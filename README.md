@@ -1,4 +1,4 @@
-# T20 Cricket Score Prediction
+# T20 Cricket Score Predictor
 
 ### Overview
 This project aims to predict T20 cricket scores using machine learning techniques. It utilizes historical match data, player statistics, and other relevant features to make predictions about the final score of a T20 cricket match.
